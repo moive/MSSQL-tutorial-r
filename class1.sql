@@ -42,3 +42,7 @@ OR ENTIDAD = 'MORELOS';
 SELECT *
 FROM VOTOS
 WHERE ENTIDAD IN ('HIDALGO', 'PUEBLA', 'MORELOS');
+
+---- select values distinct
+SELECT DISTINCT Fecha_Publicación
+FROM VOTOS;
